@@ -1,0 +1,49 @@
+/*html, body {
+	height: 100%;
+}*/
+
+#player {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 51.236148px;
+	height: 50px;
+}
+#enimie{
+	position: absolute;
+	left: 101px;
+	top: 101px;
+	width: 50px;
+	height: 51;
+}
+
+#gameOVER {
+	position: absolute;
+	width: 100%;
+	height: 100.0%;
+	top: 0;
+	left: 0;
+	font-size: 250px;
+	background: rgb(100, 0, 0);
+}
+
+#gameUNDER {
+	position: absolute;
+	width: 100%;
+	height: 100.0%;
+	top: 0;
+	left: 0;
+	font-size: 250px;
+	background: rgb(0, 0, 122);
+}
+
+#player1wins, #player2wins {
+	font-size: 36px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 200px;
+}
